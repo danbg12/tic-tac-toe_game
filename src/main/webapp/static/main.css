@@ -1,0 +1,49 @@
+td {
+    border: 3px solid black;
+    padding: 10px;
+    border-collapse: separate;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    empty-cells: show;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('aleksandra-khaprenko-0PPw9irzLIw-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#header {
+    font-family: "Segoe UI";
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-family: "Segoe UI";
+}
+
+#draw {
+    color: saddlebrown;
+    font-family: "Segoe UI";
+}
+
+#won {
+    color: forestgreen;
+    font-family: "Segoe UI";
+}
+
+#lost {
+    color: red;
+    font-family: "Segoe UI";
+}
